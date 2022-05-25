@@ -8,7 +8,7 @@ import { saveBookIds, getSavedBookIds } from '../utils/localStorage';
 import { GET_ME } from '../utils/queries';
 
 const SearchBooks = () => {
-  const loggedIn = Auth.loggedIn();
+  
   // create state for holding returned google api data
   const [searchedBooks, setSearchedBooks] = useState([]);
   // create state for holding our search field data
