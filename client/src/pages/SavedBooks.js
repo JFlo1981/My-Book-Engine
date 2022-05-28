@@ -34,8 +34,8 @@ const SavedBooks = () => {
   if (loading) {
     return <h2>LOADING...</h2>;
   }
- console.log(loading, data);
- console.log(userData);
+//  console.log(loading, data);
+//  console.log(userData);
   return (
     <>
       <Jumbotron fluid className='text-light bg-dark'>
